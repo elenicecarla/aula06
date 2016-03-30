@@ -1,0 +1,59 @@
+body{
+    background-color: silver;
+}    
+
+#infopesdiv{
+        background-color: skyblue;
+        text-align:center;
+        border: 4px solid;
+        border-color:black;
+        margin: 5px auto;
+        width:430px;
+        height:200px;
+
+    }
+    
+    #historicomediv{
+    background-color: skyblue;
+    text-align:center;
+    border: 4px solid;
+    border-color:black;
+    margin: 5px auto;
+    width:430px;
+    height:200px;    
+}
+    
+    #medicacaoatdiv{
+    background-color: skyblue;
+    text-align:center;
+    border: 4px solid;
+    border-color:black;
+    margin: 5px auto;
+    width:430px;
+    height:350px;
+    }
+
+.inf{
+    display: inline-block;
+    width: 90px;
+    padding: 3px; 
+ }
+
+.campoinf{
+    width: 300px;
+}
+
+.hist{
+    display: inline-block;
+    width: 90px;
+    padding: 3px; 
+}
+#btdiv{
+     background-color: skyblue;
+    
+    border: 4px solid;
+    border-color:black;
+    margin: 5px auto;
+    width:57px;
+    height:25px;
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Formulario Médico</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formulariomedico.css">
+    </head>
+    <body>
+        <form method="get" action="http://labs.edysegura.com/requests/">
+           <div id="infopesdiv">
+                <h1>Informações Pessoais</h1>
+                <label class="inf">Nome: </label>
+                <input type = "text" name="nome" class="campoinf"><br>
+            
+               <label class="inf">Endereço: </label>
+                <input type = "text" name="endereco" class="campoinf"><br>
+            
+               <label class="inf">Cidade: </label>
+                <input type = "text" name="cidade" class="campoinf"><br>
+            </div> 
+            
+            <div id="historicomediv">
+                <h1>Histórico Médico</h1>
+               <input type="checkbox" name="doenca[]" value="dengue" class="checkboxhist">
+               <label class="hist">Dengue</label><br>
+               
+               <input type="checkbox" name="doenca[]" value="zica" class="checkboxhist">
+               <label class="hist">Zica</label><br>
+               
+               <input type="checkbox" name="doenca[]" value="chikungunya" class="checkboxhist">
+               <label class="hist">Chukungunya</label><br>
+               
+               <input type="checkbox" name="doenca[]" value="gripe" class="checkboxhist">
+               <label class="hist">Gripe</label><br>
+            </div>
+            
+            <div id="medicacaoatdiv">
+                <h1>Medicação Atual</h1>
+               <h4>Utiliza algum medicamento?</h4>
+               
+                <input type="radio" name="opcao" value="sim">
+               <label>Sim</label><br>
+               
+               <input type="radio" name="opcao" value="nao">
+               <label>Não</label>
+            
+                
+                <h5>Quais?</h5>
+                <textarea rows="4" cols="50" name="observacoes"></textarea>
+            </div>
+            
+                <div id="btdiv">
+                    <input type="submit" value="Enviar">
+                </div>
+            
+    
+        </form>
+    </body>
+</html>
